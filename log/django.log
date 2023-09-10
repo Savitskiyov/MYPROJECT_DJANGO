@@ -1,0 +1,699 @@
+Watching for file changes with StatReloader
+C:\Users\savit\PycharmProjects\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /about/
+"GET /about/ HTTP/1.1" 404 2205
+Not Found: /
+"GET / HTTP/1.1" 404 2169
+"GET /prefix HTTP/1.1" 301 0
+"GET /prefix/ HTTP/1.1" 200 13
+C:\Users\savit\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\savit\PycharmProjects\Django\myproject\myapp\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /prefix/about/ HTTP/1.1" 200 27
+C:\Users\savit\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-08-20 11:41:38,218 autoreload 11740 2736 Watching for file changes with StatReloader
+ERROR 2023-08-20 11:42:35,498 views 11740 36528 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\savit\PycharmProjects\Django\myproject\myapp\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-08-20 11:42:35,499 basehttp 11740 36528 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2023-08-20 11:45:02,210 autoreload 11740 2736 C:\Users\savit\PycharmProjects\Django\myproject\myproject\urls.py changed, reloading.
+INFO 2023-08-20 11:45:02,523 autoreload 38008 20196 Watching for file changes with StatReloader
+WARNING 2023-08-20 11:45:05,404 log 38008 12296 Not Found: /
+WARNING 2023-08-20 11:45:05,404 basehttp 38008 12296 "GET / HTTP/1.1" 404 2168
+WARNING 2023-08-20 11:45:22,829 log 38008 12296 Not Found: /
+WARNING 2023-08-20 11:45:22,829 basehttp 38008 12296 "GET / HTTP/1.1" 404 2168
+INFO 2023-08-20 11:45:42,083 basehttp 38008 12296 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-08-20 11:45:42,134 basehttp 38008 12296 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-08-20 11:45:42,269 basehttp 38008 17836 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-08-20 11:45:42,270 basehttp 38008 4100 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-08-20 11:45:42,274 basehttp 38008 33384 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-08-20 11:45:42,274 basehttp 38008 4100 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-08-20 11:45:42,274 basehttp 38008 25232 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-08-20 11:45:42,274 basehttp 38008 27572 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-08-20 11:45:42,277 basehttp 38008 12296 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-08-20 11:46:46,351 autoreload 38008 20196 C:\Users\savit\PycharmProjects\Django\myproject\myproject\urls.py changed, reloading.
+INFO 2023-08-20 11:46:46,642 autoreload 17676 38628 Watching for file changes with StatReloader
+INFO 2023-08-20 11:46:49,907 views 17676 8616 Index page accessed
+INFO 2023-08-20 11:46:49,907 basehttp 17676 8616 "GET / HTTP/1.1" 200 13
+INFO 2023-08-20 16:47:51,211 autoreload 13976 37008 Watching for file changes with StatReloader
+INFO 2023-08-20 16:47:53,718 views 13976 14504 Index page accessed
+INFO 2023-08-20 16:47:53,718 basehttp 13976 14504 "GET / HTTP/1.1" 200 13
+WARNING 2023-08-20 16:47:55,316 log 13976 14504 Not Found: /null
+WARNING 2023-08-20 16:47:55,316 basehttp 13976 14504 "GET /null HTTP/1.1" 404 2526
+INFO 2023-08-20 16:48:29,950 autoreload 13976 37008 C:\Users\savit\PycharmProjects\Django\myproject\myproject\urls.py changed, reloading.
+INFO 2023-08-20 16:48:30,245 autoreload 37960 33100 Watching for file changes with StatReloader
+INFO 2023-08-20 16:48:59,944 autoreload 17548 14352 Watching for file changes with StatReloader
+INFO 2023-08-20 16:49:26,389 autoreload 17548 14352 C:\Users\savit\PycharmProjects\Django\myproject\HW_1\views.py changed, reloading.
+INFO 2023-08-20 16:49:26,662 autoreload 27068 14440 Watching for file changes with StatReloader
+INFO 2023-08-20 16:49:28,724 basehttp 27068 20144 "GET / HTTP/1.1" 200 71
+INFO 2023-08-20 16:49:35,151 basehttp 27068 20144 "GET /about HTTP/1.1" 301 0
+INFO 2023-08-20 16:49:35,155 basehttp 27068 37644 "GET /about/ HTTP/1.1" 200 56
+INFO 2023-08-20 16:55:25,768 autoreload 27068 14440 C:\Users\savit\PycharmProjects\Django\myproject\HW_1\views.py changed, reloading.
+INFO 2023-08-20 16:55:26,159 autoreload 36008 8856 Watching for file changes with StatReloader
+INFO 2023-08-20 16:55:39,430 basehttp 36008 10644 "GET / HTTP/1.1" 200 97
+WARNING 2023-08-20 16:55:43,030 log 36008 10644 Not Found: /null
+WARNING 2023-08-20 16:55:43,031 basehttp 36008 10644 "GET /null HTTP/1.1" 404 2526
+INFO 2023-08-24 19:28:21,923 autoreload 17796 14676 Watching for file changes with StatReloader
+INFO 2023-08-24 19:28:32,236 basehttp 17796 27148 "GET / HTTP/1.1" 200 97
+INFO 2023-08-24 19:31:46,840 autoreload 9392 37576 Watching for file changes with StatReloader
+INFO 2023-08-25 19:26:48,101 autoreload 22488 10708 Watching for file changes with StatReloader
+INFO 2023-08-25 19:26:50,324 basehttp 22488 13800 "GET / HTTP/1.1" 200 97
+INFO 2023-08-27 18:20:54,861 autoreload 15732 4464 Watching for file changes with StatReloader
+INFO 2023-08-27 18:20:57,630 basehttp 15732 29236 "GET / HTTP/1.1" 200 97
+INFO 2023-08-27 18:21:15,105 basehttp 15732 32604 "GET / HTTP/1.1" 200 97
+WARNING 2023-08-27 18:21:40,785 log 15732 3624 Not Found: /les3/
+WARNING 2023-08-27 18:21:40,785 basehttp 15732 3624 "GET /les3/ HTTP/1.1" 404 2875
+INFO 2023-08-27 18:22:02,474 basehttp 15732 24860 "GET /les3/hello/ HTTP/1.1" 200 26
+INFO 2023-08-27 18:22:06,674 basehttp 15732 24860 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2023-08-27 18:22:42,264 basehttp 15732 24860 "GET /les3/hello2 HTTP/1.1" 301 0
+INFO 2023-08-27 18:22:42,264 basehttp 15732 22332 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2023-08-27 18:23:52,711 autoreload 15732 4464 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-27 18:23:53,050 autoreload 11700 13204 Watching for file changes with StatReloader
+INFO 2023-08-27 18:28:29,334 autoreload 11700 13204 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-27 18:28:29,750 autoreload 10908 11660 Watching for file changes with StatReloader
+INFO 2023-08-27 18:43:56,903 autoreload 10696 6896 Watching for file changes with StatReloader
+INFO 2023-08-27 18:46:02,751 autoreload 10696 6896 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-27 18:46:03,074 autoreload 23180 26348 Watching for file changes with StatReloader
+INFO 2023-08-27 18:46:43,767 autoreload 23180 26348 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-27 18:46:44,068 autoreload 18784 4144 Watching for file changes with StatReloader
+INFO 2023-08-27 18:46:46,495 basehttp 18784 14404 "GET / HTTP/1.1" 200 97
+WARNING 2023-08-27 18:46:59,080 log 18784 14404 Not Found: /les3/posts
+WARNING 2023-08-27 18:46:59,081 basehttp 18784 14404 "GET /les3/posts HTTP/1.1" 404 3295
+WARNING 2023-08-27 18:47:12,966 log 18784 14404 Not Found: /les3/2022
+WARNING 2023-08-27 18:47:12,967 basehttp 18784 14404 "GET /les3/2022 HTTP/1.1" 404 3292
+WARNING 2023-08-27 18:47:31,898 log 18784 14404 Not Found: /les3/2022/
+WARNING 2023-08-27 18:47:31,900 basehttp 18784 14404 "GET /les3/2022/ HTTP/1.1" 404 3295
+INFO 2023-08-27 18:48:27,926 autoreload 18784 4144 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-27 18:48:28,405 autoreload 28984 4828 Watching for file changes with StatReloader
+INFO 2023-08-27 18:49:17,188 autoreload 28984 4828 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-08-27 18:49:17,526 autoreload 21796 24288 Watching for file changes with StatReloader
+INFO 2023-08-27 18:49:27,718 autoreload 21796 24288 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-08-27 18:49:28,131 autoreload 12296 29156 Watching for file changes with StatReloader
+INFO 2023-08-27 18:59:12,233 autoreload 12296 29156 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-08-27 18:59:12,539 autoreload 7856 8064 Watching for file changes with StatReloader
+WARNING 2023-08-27 18:59:16,097 log 7856 17644 Not Found: /les3/2022/6
+WARNING 2023-08-27 18:59:16,097 basehttp 7856 17644 "GET /les3/2022/6 HTTP/1.1" 404 3529
+WARNING 2023-08-27 18:59:32,322 log 7856 17644 Not Found: /les3/2022/6
+WARNING 2023-08-27 18:59:32,323 basehttp 7856 17644 "GET /les3/2022/6 HTTP/1.1" 404 3529
+WARNING 2023-08-27 18:59:40,584 log 7856 17644 Not Found: /les3/2023/6
+WARNING 2023-08-27 18:59:40,585 basehttp 7856 17644 "GET /les3/2023/6 HTTP/1.1" 404 3529
+INFO 2023-08-27 18:59:56,760 basehttp 7856 17644 "GET / HTTP/1.1" 200 97
+WARNING 2023-08-27 19:00:14,008 log 7856 17644 Not Found: /les3/2023/6
+WARNING 2023-08-27 19:00:14,008 basehttp 7856 17644 "GET /les3/2023/6 HTTP/1.1" 404 3529
+INFO 2023-08-27 19:00:29,140 basehttp 7856 17644 "GET /les3/posts/2023/6 HTTP/1.1" 301 0
+INFO 2023-08-27 19:00:29,143 basehttp 7856 6708 "GET /les3/posts/2023/6/ HTTP/1.1" 200 21
+INFO 2023-08-27 19:01:09,595 basehttp 7856 6708 "GET /les3/posts/2023/6/python HTTP/1.1" 301 0
+INFO 2023-08-27 19:01:09,598 basehttp 7856 24544 "GET /les3/posts/2023/6/python/ HTTP/1.1" 200 361
+INFO 2023-08-27 19:01:50,993 autoreload 7856 8064 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-08-27 19:01:51,365 autoreload 36476 10504 Watching for file changes with StatReloader
+INFO 2023-08-27 19:08:31,424 autoreload 36476 10504 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-08-27 19:08:31,792 autoreload 35088 33616 Watching for file changes with StatReloader
+INFO 2023-08-27 19:08:49,193 autoreload 35088 33616 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-08-27 19:08:49,662 autoreload 15732 34384 Watching for file changes with StatReloader
+INFO 2023-08-27 19:16:29,828 autoreload 15732 34384 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-27 19:16:30,310 autoreload 7028 14820 Watching for file changes with StatReloader
+INFO 2023-08-27 19:17:01,982 basehttp 7028 12884 "GET /les3/ HTTP/1.1" 200 175
+INFO 2023-08-27 19:24:48,111 autoreload 7028 14820 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-08-27 19:24:48,499 autoreload 37992 9648 Watching for file changes with StatReloader
+INFO 2023-08-27 19:25:08,935 autoreload 37992 9648 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-08-27 19:25:09,263 autoreload 26748 27540 Watching for file changes with StatReloader
+INFO 2023-08-27 19:26:35,690 autoreload 26748 27540 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-27 19:26:36,097 autoreload 10696 20652 Watching for file changes with StatReloader
+INFO 2023-08-27 19:26:45,395 autoreload 10696 20652 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-27 19:26:45,757 autoreload 23336 27220 Watching for file changes with StatReloader
+INFO 2023-08-27 19:26:56,285 basehttp 23336 16476 "GET /les3/if HTTP/1.1" 301 0
+INFO 2023-08-27 19:26:56,294 basehttp 23336 11136 "GET /les3/if/ HTTP/1.1" 200 343
+INFO 2023-08-27 19:30:47,757 autoreload 23336 27220 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-08-27 19:30:48,106 autoreload 15068 33356 Watching for file changes with StatReloader
+INFO 2023-08-27 19:31:20,671 autoreload 15068 33356 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-08-27 19:31:20,989 autoreload 2288 1608 Watching for file changes with StatReloader
+INFO 2023-08-27 19:31:51,603 autoreload 2288 1608 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-27 19:31:51,999 autoreload 11452 4660 Watching for file changes with StatReloader
+INFO 2023-08-27 19:31:58,160 autoreload 11452 4660 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-27 19:31:58,489 autoreload 9100 18120 Watching for file changes with StatReloader
+WARNING 2023-08-27 19:32:07,559 log 9100 19420 Not Found: /les3/if/null
+WARNING 2023-08-27 19:32:07,559 basehttp 9100 19420 "GET /les3/if/null HTTP/1.1" 404 4044
+INFO 2023-08-27 19:32:14,397 basehttp 9100 19420 "GET /les3/for/ HTTP/1.1" 200 860
+INFO 2023-08-27 19:43:59,034 autoreload 9100 18120 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2023-08-27 19:43:59,360 autoreload 21316 32004 Watching for file changes with StatReloader
+WARNING 2023-08-27 19:45:03,159 log 21316 32060 Not Found: /les3/about
+WARNING 2023-08-27 19:45:03,160 basehttp 21316 32060 "GET /les3/about HTTP/1.1" 404 4038
+WARNING 2023-08-27 19:45:24,587 log 21316 32060 Not Found: /les3/about/
+WARNING 2023-08-27 19:45:24,587 basehttp 21316 32060 "GET /les3/about/ HTTP/1.1" 404 4041
+WARNING 2023-08-27 19:46:24,644 log 21316 32060 Not Found: /les3/about/null
+WARNING 2023-08-27 19:46:24,644 basehttp 21316 32060 "GET /les3/about/null HTTP/1.1" 404 4053
+INFO 2023-08-27 19:46:58,438 autoreload 21316 32004 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-27 19:46:58,749 autoreload 32232 10084 Watching for file changes with StatReloader
+WARNING 2023-08-27 19:47:01,160 log 32232 34832 Not Found: /les3/about/null
+WARNING 2023-08-27 19:47:01,160 basehttp 32232 34832 "GET /les3/about/null HTTP/1.1" 404 4225
+INFO 2023-08-27 19:47:02,649 basehttp 32232 34832 "GET /les3/about/ HTTP/1.1" 200 860
+INFO 2023-08-27 19:47:08,077 basehttp 32232 34832 "GET /les3/about/ HTTP/1.1" 200 860
+INFO 2023-08-27 19:47:50,604 basehttp 32232 34832 "GET /les3/if/ HTTP/1.1" 200 343
+INFO 2023-08-27 19:47:55,675 basehttp 32232 34832 "GET /les3/about/ HTTP/1.1" 200 860
+INFO 2023-08-27 19:49:22,139 autoreload 32232 10084 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-08-27 19:49:22,493 autoreload 30064 7540 Watching for file changes with StatReloader
+INFO 2023-08-27 19:49:23,106 basehttp 30064 3940 "GET /les3/about/ HTTP/1.1" 200 222
+ERROR 2023-08-27 19:49:38,813 log 30064 3940 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\myproject\myapp3\views.py", line 69, in index
+    return render(request, "myapp3/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-08-27 19:49:38,818 basehttp 30064 3940 "GET /les3/index/ HTTP/1.1" 500 129212
+INFO 2023-08-27 19:51:10,580 basehttp 30064 11884 "GET /les3/index/ HTTP/1.1" 200 213
+INFO 2023-08-27 19:53:16,533 autoreload 30064 7540 C:\Users\savit\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-08-27 19:53:16,883 autoreload 8348 18120 Watching for file changes with StatReloader
+ERROR 2023-08-27 19:56:24,836 log 8348 3472 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\myproject\myapp3\views.py", line 69, in index
+    return render(request, "myapp3/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-08-27 19:56:24,841 basehttp 8348 3472 "GET /les3/index/ HTTP/1.1" 500 130012
+INFO 2023-08-27 20:00:37,576 basehttp 8348 11888 "GET /les3/index/ HTTP/1.1" 200 273
+INFO 2023-08-27 20:03:10,651 autoreload 8348 18120 C:\Users\savit\PycharmProjects\Django\myproject\myproject\urls.py changed, reloading.
+INFO 2023-08-27 20:03:11,201 autoreload 17428 9344 Watching for file changes with StatReloader
+INFO 2023-08-27 20:03:47,971 basehttp 17428 11228 "GET / HTTP/1.1" 200 97
+INFO 2023-08-27 20:03:57,277 autoreload 17428 9344 C:\Users\savit\PycharmProjects\Django\myproject\myproject\urls.py changed, reloading.
+INFO 2023-08-27 20:03:58,131 autoreload 30856 27128 Watching for file changes with StatReloader
+INFO 2023-08-27 20:04:01,031 basehttp 30856 31280 "GET / HTTP/1.1" 200 273
+INFO 2023-08-27 20:07:34,056 autoreload 30856 27128 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\models.py changed, reloading.
+INFO 2023-08-27 20:07:34,780 autoreload 28984 26728 Watching for file changes with StatReloader
+INFO 2023-08-27 20:32:27,550 autoreload 16212 12268 Watching for file changes with StatReloader
+WARNING 2023-08-27 20:32:39,236 log 16212 34364 Not Found: /les3/autor/5
+WARNING 2023-08-27 20:32:39,237 basehttp 16212 34364 "GET /les3/autor/5 HTTP/1.1" 404 4557
+INFO 2023-08-27 20:32:50,180 basehttp 16212 34364 "GET /les3/author/5 HTTP/1.1" 301 0
+INFO 2023-08-27 20:32:50,193 basehttp 16212 18180 "GET /les3/author/5/ HTTP/1.1" 200 1265
+INFO 2023-08-27 20:33:04,047 basehttp 16212 18180 "GET /les3/post/47/ HTTP/1.1" 200 410
+INFO 2023-08-27 20:33:08,966 basehttp 16212 18180 "GET /les3/post/50/ HTTP/1.1" 200 437
+INFO 2023-08-27 20:33:11,530 basehttp 16212 18180 "GET /les3/post/46/ HTTP/1.1" 200 422
+INFO 2023-08-27 20:34:44,288 autoreload 16212 12268 C:\Users\savit\PycharmProjects\Django\myproject\myproject\urls.py changed, reloading.
+INFO 2023-08-27 20:34:44,748 autoreload 36620 9792 Watching for file changes with StatReloader
+INFO 2023-08-27 20:36:52,656 autoreload 36620 9792 C:\Users\savit\PycharmProjects\Django\myproject\HW_2\models.py changed, reloading.
+INFO 2023-08-27 20:36:53,045 autoreload 20864 11508 Watching for file changes with StatReloader
+INFO 2023-08-27 20:42:34,839 autoreload 15356 11296 Watching for file changes with StatReloader
+INFO 2023-08-27 20:42:47,113 autoreload 21040 10976 Watching for file changes with StatReloader
+WARNING 2023-08-27 20:42:57,507 log 21040 14252 Not Found: /les3/post/46/null
+WARNING 2023-08-27 20:42:57,507 basehttp 21040 14252 "GET /les3/post/46/null HTTP/1.1" 404 4678
+INFO 2023-08-27 20:43:01,957 basehttp 21040 14252 "GET / HTTP/1.1" 200 273
+INFO 2023-08-28 21:31:40,025 autoreload 11828 16192 Watching for file changes with StatReloader
+INFO 2023-08-28 21:32:07,360 basehttp 11828 32296 "GET /les4/user/add/ HTTP/1.1" 200 717
+WARNING 2023-08-30 18:07:32,680 log 11828 30356 Not Found: /les4/user/add/null
+WARNING 2023-08-30 18:07:32,681 basehttp 11828 30356 "GET /les4/user/add/null HTTP/1.1" 404 2730
+WARNING 2023-08-30 18:07:37,350 log 11828 22956 Not Found: /les4/user/add/null
+WARNING 2023-08-30 18:07:37,350 basehttp 11828 22956 "GET /les4/user/add/null HTTP/1.1" 404 2730
+WARNING 2023-08-30 18:07:37,697 log 11828 22956 Not Found: /les4/user/add/null
+WARNING 2023-08-30 18:07:37,698 basehttp 11828 22956 "GET /les4/user/add/null HTTP/1.1" 404 2730
+WARNING 2023-08-30 18:09:23,538 log 11828 37040 Not Found: /les4/user/add/null
+INFO 2023-08-30 18:09:23,540 basehttp 11828 37040 - Broken pipe from ('127.0.0.1', 5597)
+WARNING 2023-08-30 18:44:47,292 log 11828 21920 Not Found: /les4/user/add/null
+WARNING 2023-08-30 18:44:47,293 basehttp 11828 21920 "GET /les4/user/add/null HTTP/1.1" 404 2730
+WARNING 2023-08-30 20:45:38,161 log 11828 38336 Not Found: /les4/user/add/null
+WARNING 2023-08-30 20:45:38,163 basehttp 11828 38336 "GET /les4/user/add/null HTTP/1.1" 404 2730
+WARNING 2023-08-30 20:47:54,117 log 11828 8236 Not Found: /les4/user/add/null
+WARNING 2023-08-30 20:47:54,118 basehttp 11828 8236 "GET /les4/user/add/null HTTP/1.1" 404 2730
+INFO 2023-08-30 20:48:00,314 basehttp 11828 8236 "GET /les4/user/add/ HTTP/1.1" 200 935
+ERROR 2023-08-30 20:48:32,405 log 11828 8236 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-08-30 20:48:32,407 basehttp 11828 8236 "POST /les4/user/add/ HTTP/1.1" 500 68156
+ERROR 2023-08-30 20:49:23,252 log 11828 8236 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\savit\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-08-30 20:49:23,253 basehttp 11828 8236 "POST /les4/user/add/ HTTP/1.1" 500 68156
+INFO 2023-08-30 20:53:30,690 autoreload 11828 16192 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-08-30 20:53:31,271 autoreload 19908 23624 Watching for file changes with StatReloader
+INFO 2023-08-30 20:55:31,102 autoreload 19908 23624 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-08-30 20:55:31,432 autoreload 13192 12308 Watching for file changes with StatReloader
+INFO 2023-08-30 20:55:47,821 autoreload 13192 12308 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2023-08-30 20:55:48,204 autoreload 10116 5384 Watching for file changes with StatReloader
+INFO 2023-08-30 20:55:59,513 autoreload 10116 5384 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2023-08-30 20:55:59,886 autoreload 17324 13156 Watching for file changes with StatReloader
+INFO 2023-08-30 20:56:40,532 autoreload 17324 13156 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2023-08-30 20:56:40,895 autoreload 26680 20720 Watching for file changes with StatReloader
+INFO 2023-08-30 20:57:15,375 autoreload 26680 20720 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2023-08-30 20:57:15,718 autoreload 11304 7760 Watching for file changes with StatReloader
+INFO 2023-08-30 20:57:18,737 basehttp 11304 8484 "POST /les4/user/add/ HTTP/1.1" 200 986
+WARNING 2023-08-30 20:57:19,500 log 11304 8484 Not Found: /les4/user/add/null
+WARNING 2023-08-30 20:57:19,502 basehttp 11304 8484 "GET /les4/user/add/null HTTP/1.1" 404 2730
+INFO 2023-08-30 20:57:59,623 autoreload 11304 7760 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\urls.py changed, reloading.
+INFO 2023-08-30 20:58:00,003 autoreload 28892 4468 Watching for file changes with StatReloader
+INFO 2023-08-30 20:58:12,443 autoreload 28892 4468 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\urls.py changed, reloading.
+INFO 2023-08-30 20:58:12,838 autoreload 8064 7552 Watching for file changes with StatReloader
+WARNING 2023-08-30 20:59:17,245 log 8064 29180 Not Found: /les4/user/add/null
+WARNING 2023-08-30 20:59:17,245 basehttp 8064 29180 "GET /les4/user/add/null HTTP/1.1" 404 2913
+WARNING 2023-08-30 20:59:36,727 log 8064 29180 Not Found: /les4/user/forms/
+WARNING 2023-08-30 20:59:36,728 basehttp 8064 29180 "GET /les4/user/forms/ HTTP/1.1" 404 2907
+WARNING 2023-08-30 21:00:00,509 log 8064 29180 Not Found: /les4/user/forms/
+WARNING 2023-08-30 21:00:00,509 basehttp 8064 29180 "GET /les4/user/forms/ HTTP/1.1" 404 2907
+INFO 2023-08-30 21:00:10,492 basehttp 8064 29180 "GET /les4/forms/ HTTP/1.1" 200 1472
+INFO 2023-08-30 21:01:18,410 basehttp 8064 29180 "POST /les4/forms/ HTTP/1.1" 200 1589
+INFO 2023-08-30 21:01:38,570 basehttp 8064 29180 "POST /les4/forms/ HTTP/1.1" 200 1589
+INFO 2023-08-30 21:05:53,144 autoreload 8064 7552 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-08-30 21:05:53,454 autoreload 11420 35412 Watching for file changes with StatReloader
+INFO 2023-08-30 21:07:20,573 autoreload 11420 35412 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-08-30 21:07:20,920 autoreload 38660 22424 Watching for file changes with StatReloader
+INFO 2023-08-30 21:08:09,821 autoreload 38660 22424 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-08-30 21:08:10,210 autoreload 10112 14776 Watching for file changes with StatReloader
+INFO 2023-08-30 21:09:14,381 autoreload 10112 14776 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2023-08-30 21:09:14,818 autoreload 33220 26272 Watching for file changes with StatReloader
+INFO 2023-08-30 21:09:40,536 autoreload 33220 26272 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2023-08-30 21:09:41,072 autoreload 34000 3576 Watching for file changes with StatReloader
+INFO 2023-08-30 21:09:54,332 basehttp 34000 13444 "POST /les4/forms/ HTTP/1.1" 200 2268
+INFO 2023-08-30 21:11:53,363 autoreload 34000 3576 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-08-30 21:11:53,744 autoreload 5836 17256 Watching for file changes with StatReloader
+INFO 2023-08-30 21:12:35,018 basehttp 5836 32248 "POST /les4/forms/ HTTP/1.1" 200 2268
+INFO 2023-08-30 21:16:09,650 autoreload 5836 17256 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-08-30 21:16:10,015 autoreload 34996 20640 Watching for file changes with StatReloader
+INFO 2023-08-30 21:16:34,622 autoreload 34996 20640 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\models.py changed, reloading.
+INFO 2023-08-30 21:16:34,959 autoreload 20356 11056 Watching for file changes with StatReloader
+INFO 2023-08-30 21:21:24,790 autoreload 31140 36048 Watching for file changes with StatReloader
+WARNING 2023-08-30 21:21:44,265 log 31140 26352 Not Found: /les4/user/user/
+WARNING 2023-08-30 21:21:44,265 basehttp 31140 26352 "GET /les4/user/user/ HTTP/1.1" 404 3078
+INFO 2023-08-30 21:21:50,233 basehttp 31140 26352 "GET /les4/user/ HTTP/1.1" 200 974
+INFO 2023-08-30 21:22:12,151 basehttp 31140 26352 "POST /les4/user/ HTTP/1.1" 200 1082
+INFO 2023-08-30 21:24:22,837 autoreload 31140 36048 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-08-30 21:24:23,219 autoreload 20796 21216 Watching for file changes with StatReloader
+INFO 2023-08-30 21:24:35,576 autoreload 20796 21216 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2023-08-30 21:24:35,920 autoreload 8324 34628 Watching for file changes with StatReloader
+INFO 2023-08-30 21:26:12,456 autoreload 8324 34628 C:\Users\savit\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-08-30 21:26:12,831 autoreload 35012 6060 Watching for file changes with StatReloader
+INFO 2023-08-30 21:26:34,329 autoreload 35012 6060 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2023-08-30 21:26:34,792 autoreload 11232 33384 Watching for file changes with StatReloader
+INFO 2023-08-30 21:27:25,621 autoreload 11232 33384 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2023-08-30 21:27:26,052 autoreload 24716 36144 Watching for file changes with StatReloader
+INFO 2023-08-30 21:27:41,565 autoreload 24716 36144 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2023-08-30 21:27:41,973 autoreload 20220 24464 Watching for file changes with StatReloader
+INFO 2023-08-30 21:28:12,836 autoreload 20220 24464 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\urls.py changed, reloading.
+INFO 2023-08-30 21:28:13,320 autoreload 25464 8260 Watching for file changes with StatReloader
+INFO 2023-08-30 21:28:26,811 autoreload 25464 8260 C:\Users\savit\PycharmProjects\Django\myproject\myapp4\urls.py changed, reloading.
+INFO 2023-08-30 21:28:27,258 autoreload 13208 30488 Watching for file changes with StatReloader
+INFO 2023-08-30 21:29:21,611 basehttp 13208 13416 "GET /les4/upload/ HTTP/1.1" 200 607
+INFO 2023-08-30 21:29:59,919 basehttp 13208 13416 "POST /les4/upload/ HTTP/1.1" 200 607
+INFO 2023-09-03 11:26:09,862 autoreload 7548 15452 Watching for file changes with StatReloader
+INFO 2023-09-03 11:45:35,075 autoreload 4728 4872 Watching for file changes with StatReloader
+INFO 2023-09-03 11:45:43,642 basehttp 4728 13500 "GET / HTTP/1.1" 200 273
+WARNING 2023-09-03 11:45:44,363 log 4728 13500 Not Found: /favicon.ico
+WARNING 2023-09-03 11:45:44,364 basehttp 4728 13500 "GET /favicon.ico HTTP/1.1" 404 2635
+INFO 2023-09-03 11:45:50,103 basehttp 4728 13500 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-03 11:45:50,222 basehttp 4728 13500 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-09-03 11:45:50,400 basehttp 4728 6312 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-09-03 11:45:50,405 basehttp 4728 13548 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-09-03 11:45:50,412 basehttp 4728 2024 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-09-03 11:45:50,413 basehttp 4728 6312 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-09-03 11:45:50,418 basehttp 4728 13500 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-09-03 11:45:50,419 basehttp 4728 10184 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-09-03 11:45:50,419 basehttp 4728 20552 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-09-03 11:46:02,572 basehttp 4728 20552 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4342
+INFO 2023-09-03 11:47:17,196 autoreload 4728 4872 C:\Users\savit\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-03 11:47:17,623 autoreload 18600 3900 Watching for file changes with StatReloader
+INFO 2023-09-03 11:47:19,271 basehttp 18600 18044 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-09-03 11:53:39,207 autoreload 7588 11808 Watching for file changes with StatReloader
+INFO 2023-09-03 11:53:42,012 basehttp 7588 9720 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-03 11:53:42,055 basehttp 7588 9720 "GET /admin/ HTTP/1.1" 200 7394
+INFO 2023-09-03 11:53:42,119 basehttp 7588 9720 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-09-03 11:53:42,137 basehttp 7588 9720 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-09-03 11:53:42,137 basehttp 7588 13804 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-09-03 11:56:12,952 basehttp 7588 13804 "GET /admin/auth/user/ HTTP/1.1" 200 12433
+INFO 2023-09-03 11:56:13,007 basehttp 7588 13804 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-09-03 11:56:13,010 basehttp 7588 7860 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-09-03 11:56:13,010 basehttp 7588 9720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 11:56:13,016 basehttp 7588 18044 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-09-03 11:56:13,019 basehttp 7588 16192 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-09-03 11:56:13,026 basehttp 7588 7860 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-09-03 11:56:13,027 basehttp 7588 13804 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-09-03 11:56:13,027 basehttp 7588 9720 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-09-03 11:56:13,049 basehttp 7588 8412 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-09-03 11:56:13,066 basehttp 7588 8412 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-09-03 11:56:13,069 basehttp 7588 18044 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-09-03 11:56:13,076 basehttp 7588 18044 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-09-03 11:56:13,077 basehttp 7588 8412 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-09-03 11:56:13,087 basehttp 7588 8412 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-09-03 11:56:13,087 basehttp 7588 18044 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-09-03 11:56:14,565 basehttp 7588 18044 "GET /admin/auth/user/null HTTP/1.1" 301 0
+INFO 2023-09-03 11:56:14,569 basehttp 7588 18044 "GET /admin/auth/user/null/ HTTP/1.1" 302 0
+INFO 2023-09-03 11:56:14,574 basehttp 7588 18044 "GET /admin/auth/user/null/change/ HTTP/1.1" 302 0
+INFO 2023-09-03 11:56:14,595 basehttp 7588 18044 "GET /admin/ HTTP/1.1" 200 7617
+INFO 2023-09-03 11:56:32,082 basehttp 7588 18044 "GET /admin/HW_2/product/ HTTP/1.1" 200 8698
+INFO 2023-09-03 11:56:32,132 basehttp 7588 18044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 11:56:33,685 basehttp 7588 18044 "GET /admin/HW_2/order/ HTTP/1.1" 200 8385
+INFO 2023-09-03 11:56:33,727 basehttp 7588 18044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 11:56:34,521 basehttp 7588 18044 "GET /admin/HW_2/client/ HTTP/1.1" 200 10658
+INFO 2023-09-03 11:56:34,566 basehttp 7588 18044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 11:56:38,892 basehttp 7588 18044 "GET /admin/HW_2/product/ HTTP/1.1" 200 8698
+INFO 2023-09-03 11:56:38,928 basehttp 7588 18044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 11:56:40,469 basehttp 7588 18044 "GET /admin/auth/group/ HTTP/1.1" 200 8769
+INFO 2023-09-03 11:56:40,508 basehttp 7588 18044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 11:56:41,083 basehttp 7588 18044 "GET /admin/auth/user/ HTTP/1.1" 200 12433
+INFO 2023-09-03 11:56:41,121 basehttp 7588 18044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 11:56:46,645 basehttp 7588 18044 "GET / HTTP/1.1" 200 273
+INFO 2023-09-03 11:56:48,547 basehttp 7588 18044 "GET /admin/auth/user/ HTTP/1.1" 200 12433
+INFO 2023-09-03 12:00:33,028 basehttp 7588 18044 "GET /admin/auth/user/add/ HTTP/1.1" 200 12116
+INFO 2023-09-03 12:00:33,078 basehttp 7588 13804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:00:33,083 basehttp 7588 18044 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-09-03 12:00:33,084 basehttp 7588 8412 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-09-03 12:00:33,102 basehttp 7588 8412 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-09-03 12:00:33,110 basehttp 7588 18044 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-09-03 12:00:52,755 basehttp 7588 18044 "POST /admin/auth/user/add/ HTTP/1.1" 200 12351
+INFO 2023-09-03 12:00:52,792 basehttp 7588 18044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:01:11,422 basehttp 7588 18044 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:01:11,490 basehttp 7588 18044 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 25848
+INFO 2023-09-03 12:01:11,567 basehttp 7588 18044 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:01:11,579 basehttp 7588 13804 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-09-03 12:01:11,580 basehttp 7588 8412 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2023-09-03 12:01:11,580 basehttp 7588 7860 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-09-03 12:01:11,581 basehttp 7588 9720 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-09-03 12:01:11,736 basehttp 7588 9720 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2023-09-03 12:01:11,737 basehttp 7588 7860 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2023-09-03 12:01:11,738 basehttp 7588 18044 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2023-09-03 12:01:11,738 basehttp 7588 8412 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-09-03 12:01:11,739 basehttp 7588 13804 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-09-03 12:01:18,091 basehttp 7588 13804 "GET /admin/auth/user/ HTTP/1.1" 200 12822
+INFO 2023-09-03 12:01:18,145 basehttp 7588 13804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:01:18,157 basehttp 7588 13804 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2023-09-03 12:01:41,289 basehttp 7588 13804 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 25545
+INFO 2023-09-03 12:01:41,333 basehttp 7588 13804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:05:52,042 basehttp 7588 13804 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:05:52,061 basehttp 7588 13804 "GET /admin/auth/user/ HTTP/1.1" 200 13057
+INFO 2023-09-03 12:05:52,121 basehttp 7588 13804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:05:55,691 basehttp 7588 13804 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 25589
+INFO 2023-09-03 12:05:55,737 basehttp 7588 13804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:06:04,183 basehttp 7588 13804 "GET /admin/auth/group/ HTTP/1.1" 200 8769
+INFO 2023-09-03 12:06:04,236 basehttp 7588 13804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:06:06,760 basehttp 7588 13804 "GET /admin/auth/group/add/ HTTP/1.1" 200 15207
+INFO 2023-09-03 12:06:06,796 basehttp 7588 13804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:06:22,383 basehttp 7588 13804 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:06:22,404 basehttp 7588 13804 "GET /admin/auth/group/ HTTP/1.1" 200 10242
+INFO 2023-09-03 12:06:22,455 basehttp 7588 13804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:06:23,405 basehttp 7588 13804 "GET /admin/auth/user/ HTTP/1.1" 200 13136
+INFO 2023-09-03 12:06:23,445 basehttp 7588 13804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:06:24,543 basehttp 7588 13804 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 25630
+INFO 2023-09-03 12:06:24,597 basehttp 7588 13804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:06:30,786 basehttp 7588 13804 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:06:30,811 basehttp 7588 13804 "GET /admin/auth/user/ HTTP/1.1" 200 13363
+INFO 2023-09-03 12:06:30,861 basehttp 7588 13804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:08:54,373 autoreload 7588 11808 C:\Users\savit\PycharmProjects\Django\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-03 12:08:54,696 autoreload 14340 3736 Watching for file changes with StatReloader
+INFO 2023-09-03 12:09:04,951 autoreload 14340 3736 C:\Users\savit\PycharmProjects\Django\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-03 12:09:05,318 autoreload 18964 8548 Watching for file changes with StatReloader
+INFO 2023-09-03 12:11:55,122 autoreload 19768 12880 Watching for file changes with StatReloader
+INFO 2023-09-03 12:11:57,069 basehttp 19768 7336 "GET /admin/auth/user/ HTTP/1.1" 200 13993
+INFO 2023-09-03 12:11:57,114 basehttp 19768 7336 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:13:22,870 autoreload 19768 12880 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\admin.py changed, reloading.
+INFO 2023-09-03 12:13:23,275 autoreload 8108 11568 Watching for file changes with StatReloader
+INFO 2023-09-03 12:14:36,266 autoreload 8108 11568 C:\Users\savit\PycharmProjects\Django\myproject\myapp3\admin.py changed, reloading.
+INFO 2023-09-03 12:14:36,606 autoreload 17300 9728 Watching for file changes with StatReloader
+INFO 2023-09-03 12:14:39,629 basehttp 17300 19776 "GET /admin/auth/user/ HTTP/1.1" 200 14830
+INFO 2023-09-03 12:14:39,675 basehttp 17300 19776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:16:41,376 basehttp 17300 19776 "GET /admin/myapp3/post/ HTTP/1.1" 200 32718
+INFO 2023-09-03 12:16:41,437 basehttp 17300 19776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:16:42,920 basehttp 17300 19776 - Broken pipe from ('127.0.0.1', 53932)
+INFO 2023-09-03 12:16:42,993 basehttp 17300 7476 "GET /admin/myapp3/post/null HTTP/1.1" 301 0
+INFO 2023-09-03 12:16:43,018 basehttp 17300 7476 "GET /admin/myapp3/post/null/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:16:43,024 basehttp 17300 7476 "GET /admin/myapp3/post/null/change/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:16:43,042 basehttp 17300 7476 "GET /admin/ HTTP/1.1" 200 11085
+INFO 2023-09-03 12:16:45,051 basehttp 17300 7476 "GET /admin/myapp3/post/91/change/ HTTP/1.1" 200 14482
+INFO 2023-09-03 12:16:45,090 basehttp 17300 7476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:16:45,150 basehttp 17300 7476 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2023-09-03 12:17:25,581 basehttp 17300 7476 "GET /admin/myapp5/category/ HTTP/1.1" 200 10108
+INFO 2023-09-03 12:17:25,649 basehttp 17300 7476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:17:27,156 basehttp 17300 7476 "GET /admin/myapp5/category/null HTTP/1.1" 301 0
+INFO 2023-09-03 12:17:27,160 basehttp 17300 7476 "GET /admin/myapp5/category/null/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:17:27,165 basehttp 17300 7476 "GET /admin/myapp5/category/null/change/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:17:27,180 basehttp 17300 7476 "GET /admin/ HTTP/1.1" 200 11089
+INFO 2023-09-03 12:17:29,330 basehttp 17300 7476 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 10949
+INFO 2023-09-03 12:17:29,376 basehttp 17300 7476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:17:41,997 basehttp 17300 7476 "POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:17:42,020 basehttp 17300 7476 "GET /admin/myapp5/category/ HTTP/1.1" 200 11583
+INFO 2023-09-03 12:17:42,072 basehttp 17300 7476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:17:43,571 basehttp 17300 7476 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 10949
+INFO 2023-09-03 12:17:43,610 basehttp 17300 7476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:17:46,963 basehttp 17300 7476 "POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:17:46,986 basehttp 17300 7476 "GET /admin/myapp5/category/ HTTP/1.1" 200 11790
+INFO 2023-09-03 12:17:47,037 basehttp 17300 7476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:17:48,033 basehttp 17300 7476 "GET /admin/myapp5/product/ HTTP/1.1" 200 10101
+INFO 2023-09-03 12:17:48,070 basehttp 17300 7476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:17:48,961 basehttp 17300 7476 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 12803
+INFO 2023-09-03 12:17:49,016 basehttp 17300 7476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:17:54,193 basehttp 17300 7476 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:17:54,212 basehttp 17300 7476 "GET /admin/myapp5/product/ HTTP/1.1" 200 11583
+INFO 2023-09-03 12:17:54,254 basehttp 17300 7476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:17:55,920 basehttp 17300 7476 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 12803
+INFO 2023-09-03 12:17:55,979 basehttp 17300 7476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:18:02,424 basehttp 17300 7476 "GET /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4478
+INFO 2023-09-03 12:18:02,452 basehttp 17300 7476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:18:11,672 basehttp 17300 7476 "POST /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 403
+INFO 2023-09-03 12:18:11,710 basehttp 17300 7476 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+INFO 2023-09-03 12:18:41,467 basehttp 17300 7476 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:18:41,487 basehttp 17300 7476 "GET /admin/myapp5/product/ HTTP/1.1" 200 11803
+INFO 2023-09-03 12:18:41,525 basehttp 17300 7476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:18:43,092 basehttp 17300 7476 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 12848
+INFO 2023-09-03 12:18:43,145 basehttp 17300 7476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:18:50,469 basehttp 17300 7476 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:18:50,492 basehttp 17300 7476 "GET /admin/myapp5/product/ HTTP/1.1" 200 12022
+INFO 2023-09-03 12:18:50,529 basehttp 17300 7476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:18:53,379 basehttp 17300 7476 "GET /admin/myapp5/product/1/change/ HTTP/1.1" 200 13106
+INFO 2023-09-03 12:18:53,431 basehttp 17300 7476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:18:54,559 basehttp 17300 7476 "GET /admin/myapp5/product/1/delete/ HTTP/1.1" 200 10191
+INFO 2023-09-03 12:18:54,611 basehttp 17300 7476 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2023-09-03 12:29:18,403 autoreload 20840 6544 Watching for file changes with StatReloader
+INFO 2023-09-03 12:29:21,072 basehttp 20840 9648 "GET /admin/myapp5/product/1/delete/ HTTP/1.1" 200 10173
+INFO 2023-09-03 12:29:25,282 basehttp 20840 9648 "GET /admin/myapp5/product/1/change/ HTTP/1.1" 200 15612
+INFO 2023-09-03 12:29:32,614 basehttp 20840 9648 "GET /admin/myapp5/product/ HTTP/1.1" 200 11782
+INFO 2023-09-03 12:29:32,663 basehttp 20840 9648 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:29:40,086 basehttp 20840 9648 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 15620
+INFO 2023-09-03 12:29:40,125 basehttp 20840 9648 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:29:44,692 basehttp 20840 9648 "POST /admin/myapp5/product/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:29:44,707 basehttp 20840 9648 "GET /admin/myapp5/product/ HTTP/1.1" 200 12000
+INFO 2023-09-03 12:29:44,763 basehttp 20840 9648 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:29:47,873 basehttp 20840 9648 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 15620
+INFO 2023-09-03 12:29:47,911 basehttp 20840 9648 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:30:23,260 basehttp 20840 9648 "POST /admin/myapp5/product/2/change/ HTTP/1.1" 200 15838
+INFO 2023-09-03 12:30:23,305 basehttp 20840 9648 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:30:31,164 basehttp 20840 9648 "POST /admin/myapp5/product/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:30:31,180 basehttp 20840 9648 "GET /admin/myapp5/product/ HTTP/1.1" 200 12000
+INFO 2023-09-03 12:30:31,213 basehttp 20840 9648 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:32:16,170 autoreload 20840 6544 C:\Users\savit\PycharmProjects\Django\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-03 12:32:16,568 autoreload 7420 1356 Watching for file changes with StatReloader
+INFO 2023-09-03 12:32:17,550 basehttp 7420 12364 "GET /admin/myapp5/product/ HTTP/1.1" 200 12321
+INFO 2023-09-03 12:32:17,593 basehttp 7420 12364 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:32:22,720 basehttp 7420 12364 "GET /admin/myapp5/product/?o=2 HTTP/1.1" 200 12729
+INFO 2023-09-03 12:32:22,767 basehttp 7420 12364 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:32:23,884 basehttp 7420 12364 "GET /admin/myapp5/product/?o=1.2 HTTP/1.1" 200 13219
+INFO 2023-09-03 12:32:23,925 basehttp 7420 12364 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:33:18,044 autoreload 7420 1356 C:\Users\savit\PycharmProjects\Django\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-03 12:33:18,401 autoreload 3576 16544 Watching for file changes with StatReloader
+INFO 2023-09-03 12:33:21,228 basehttp 3576 1404 "GET /admin/myapp5/product/?o=1.2 HTTP/1.1" 200 13219
+INFO 2023-09-03 12:33:21,271 basehttp 3576 1404 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:34:11,685 basehttp 3576 1404 "GET /admin/myapp5/product/?o=1.2 HTTP/1.1" 200 13219
+INFO 2023-09-03 12:34:11,723 basehttp 3576 1404 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:34:13,182 basehttp 3576 1404 - Broken pipe from ('127.0.0.1', 54226)
+INFO 2023-09-03 12:34:13,205 basehttp 3576 13904 - Broken pipe from ('127.0.0.1', 54227)
+INFO 2023-09-03 12:34:13,227 basehttp 3576 16364 "GET /admin/myapp5/product/null HTTP/1.1" 301 0
+INFO 2023-09-03 12:34:13,232 basehttp 3576 16364 "GET /admin/myapp5/product/null/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:34:13,235 basehttp 3576 16364 "GET /admin/myapp5/product/null/change/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:34:13,264 basehttp 3576 16364 "GET /admin/ HTTP/1.1" 200 12847
+INFO 2023-09-03 12:34:15,946 basehttp 3576 16364 "GET /admin/myapp5/product/ HTTP/1.1" 200 13111
+INFO 2023-09-03 12:34:15,997 basehttp 3576 16364 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:34:33,245 autoreload 3576 16544 C:\Users\savit\PycharmProjects\Django\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-03 12:34:33,637 autoreload 16884 8824 Watching for file changes with StatReloader
+INFO 2023-09-03 12:34:36,218 basehttp 16884 8760 "GET /admin/myapp5/product/ HTTP/1.1" 200 14301
+INFO 2023-09-03 12:34:36,260 basehttp 16884 8760 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:36:50,128 autoreload 16884 8824 C:\Users\savit\PycharmProjects\Django\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-03 12:36:50,486 autoreload 18992 2720 Watching for file changes with StatReloader
+INFO 2023-09-03 12:36:53,761 basehttp 18992 10140 "GET /admin/myapp5/product/ HTTP/1.1" 200 14795
+INFO 2023-09-03 12:36:53,795 basehttp 18992 10140 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:39:11,854 autoreload 18992 2720 C:\Users\savit\PycharmProjects\Django\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-03 12:39:12,237 autoreload 7668 7688 Watching for file changes with StatReloader
+INFO 2023-09-03 12:39:28,657 autoreload 7668 7688 C:\Users\savit\PycharmProjects\Django\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-03 12:39:29,020 autoreload 8632 8508 Watching for file changes with StatReloader
+INFO 2023-09-03 12:40:11,689 autoreload 8632 8508 C:\Users\savit\PycharmProjects\Django\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-03 12:40:12,044 autoreload 8904 12880 Watching for file changes with StatReloader
+INFO 2023-09-03 12:40:14,828 basehttp 8904 2368 "GET /admin/myapp5/product/ HTTP/1.1" 200 14888
+INFO 2023-09-03 12:40:14,861 basehttp 8904 2368 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:40:15,702 basehttp 8904 2368 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 15621
+INFO 2023-09-03 12:40:15,737 basehttp 8904 2368 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:40:19,164 basehttp 8904 2368 "GET /admin/myapp5/product/ HTTP/1.1" 200 14888
+INFO 2023-09-03 12:40:29,658 basehttp 8904 2368 "POST /admin/myapp5/product/ HTTP/1.1" 302 0
+INFO 2023-09-03 12:40:29,678 basehttp 8904 2368 "GET /admin/myapp5/product/ HTTP/1.1" 200 14887
+INFO 2023-09-03 12:40:29,721 basehttp 8904 2368 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:42:16,141 basehttp 8904 2368 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 15620
+INFO 2023-09-03 12:42:16,185 basehttp 8904 2368 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:43:24,330 autoreload 8904 12880 C:\Users\savit\PycharmProjects\Django\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-03 12:43:24,665 autoreload 20332 3736 Watching for file changes with StatReloader
+INFO 2023-09-03 12:43:28,067 basehttp 20332 7484 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 14841
+INFO 2023-09-03 12:43:28,111 basehttp 20332 7484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:45:58,790 autoreload 20332 3736 C:\Users\savit\PycharmProjects\Django\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-03 12:45:59,140 autoreload 3676 12792 Watching for file changes with StatReloader
+INFO 2023-09-03 12:47:07,052 autoreload 3676 12792 C:\Users\savit\PycharmProjects\Django\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-03 12:47:07,358 autoreload 6756 16552 Watching for file changes with StatReloader
+INFO 2023-09-03 12:47:19,732 autoreload 6756 16552 C:\Users\savit\PycharmProjects\Django\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-03 12:47:20,074 autoreload 9860 9612 Watching for file changes with StatReloader
+INFO 2023-09-03 12:47:31,406 autoreload 9860 9612 C:\Users\savit\PycharmProjects\Django\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-03 12:47:31,770 autoreload 864 14028 Watching for file changes with StatReloader
+INFO 2023-09-03 12:47:35,905 basehttp 864 2816 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 16755
+INFO 2023-09-03 12:47:35,948 basehttp 864 2328 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-03 12:47:35,982 basehttp 864 2816 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2023-09-03 15:00:45,502 autoreload 15100 23000 Watching for file changes with StatReloader
+INFO 2023-09-03 15:00:55,744 basehttp 15100 23504 "GET / HTTP/1.1" 200 10049
+INFO 2023-09-03 15:00:55,803 basehttp 15100 23504 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-09-03 15:00:55,804 basehttp 15100 13656 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-09-03 15:00:55,854 basehttp 15100 23504 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2023-09-03 15:00:56,124 basehttp 15100 23504 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2023-09-03 15:01:14,253 basehttp 15100 23504 "GET /__debug__/render_panel/?store_id=621cd2c9a7284178bacede1a600dd97c&panel_id=SQLPanel HTTP/1.1" 200 28218
+INFO 2023-09-03 15:01:22,531 basehttp 15100 23504 "GET /__debug__/render_panel/?store_id=621cd2c9a7284178bacede1a600dd97c&panel_id=RequestPanel HTTP/1.1" 200 2373
+INFO 2023-09-03 15:01:23,780 basehttp 15100 23504 "GET /__debug__/render_panel/?store_id=621cd2c9a7284178bacede1a600dd97c&panel_id=HeadersPanel HTTP/1.1" 200 5271
+INFO 2023-09-03 15:01:24,898 basehttp 15100 23504 "GET /__debug__/render_panel/?store_id=621cd2c9a7284178bacede1a600dd97c&panel_id=SettingsPanel HTTP/1.1" 200 26978
+INFO 2023-09-03 15:01:28,953 basehttp 15100 23504 "GET /__debug__/render_panel/?store_id=621cd2c9a7284178bacede1a600dd97c&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2023-09-03 15:01:30,344 basehttp 15100 23504 "GET /__debug__/render_panel/?store_id=621cd2c9a7284178bacede1a600dd97c&panel_id=HistoryPanel HTTP/1.1" 200 2505
+INFO 2023-09-03 15:01:30,348 basehttp 15100 23504 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3330
+INFO 2023-09-03 15:35:59,387 autoreload 2872 21728 Watching for file changes with StatReloader
+INFO 2023-09-03 15:36:06,909 basehttp 2872 10964 "GET / HTTP/1.1" 200 10492
+INFO 2023-09-03 15:36:06,965 basehttp 2872 10964 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-03 15:36:06,965 basehttp 2872 10964 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-03 15:36:06,975 basehttp 2872 10964 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-03 15:36:06,979 basehttp 2872 10964 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2023-09-03 15:36:26,138 log 2872 10964 Not Found: /les6/
+WARNING 2023-09-03 15:36:26,138 basehttp 2872 10964 "GET /les6/ HTTP/1.1" 404 13444
+INFO 2023-09-03 15:36:34,799 basehttp 2872 10964 "GET /les6/db HTTP/1.1" 200 10827
+INFO 2023-09-03 15:36:34,879 basehttp 2872 20708 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO 2023-09-03 15:36:41,615 basehttp 2872 20708 "GET /les6/db/ HTTP/1.1" 200 10606
+INFO 2023-09-03 17:11:49,245 basehttp 2872 724 "GET /__debug__/render_panel/?store_id=501ab43f836d4ee3a65fa0eee84ef5a7&panel_id=SQLPanel HTTP/1.1" 200 33889
+INFO 2023-09-03 17:21:47,166 autoreload 2872 21728 C:\Users\savit\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-03 17:21:47,658 autoreload 6756 24960 Watching for file changes with StatReloader
+INFO 2023-09-03 17:21:58,028 autoreload 6756 24960 C:\Users\savit\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-03 17:21:58,386 autoreload 21832 4640 Watching for file changes with StatReloader
+INFO 2023-09-03 17:22:12,836 autoreload 21832 4640 C:\Users\savit\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-03 17:22:13,216 autoreload 24176 20368 Watching for file changes with StatReloader
+INFO 2023-09-03 17:22:26,654 autoreload 24176 20368 C:\Users\savit\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-03 17:22:27,067 autoreload 21688 13728 Watching for file changes with StatReloader
+INFO 2023-09-03 17:23:55,919 autoreload 21688 13728 C:\Users\savit\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-03 17:23:56,318 autoreload 25384 20948 Watching for file changes with StatReloader
+INFO 2023-09-03 17:24:50,526 autoreload 25384 20948 C:\Users\savit\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-03 17:24:50,962 autoreload 25240 11916 Watching for file changes with StatReloader
+INFO 2023-09-03 17:30:16,130 autoreload 25240 11916 C:\Users\savit\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-05 15:54:44,402 autoreload 25988 6168 Watching for file changes with StatReloader
+INFO 2023-09-05 15:55:20,943 autoreload 2220 17692 Watching for file changes with StatReloader
